@@ -1,4 +1,4 @@
-# Nome do Mini Projeto
+# Upload de Imagens com S3 e Next.js
 
 Crie uma galeria de fotos simples com upload de imagens diretamente para o Amazon S3 (AWS) utilizando Next.js, React e TailwindCSS. O usuário conseguirá arrastar e soltar imagens diretamente na interface para upload, além de visualizar as imagens já armazenadas no S3. O design final do projeto já está definido e você poderá utilizá-lo como base para sua implementação.
 
