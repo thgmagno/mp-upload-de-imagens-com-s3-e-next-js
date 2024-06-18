@@ -2,6 +2,10 @@
 
 Crie uma galeria de fotos simples com upload de imagens diretamente para o Amazon S3 (AWS) utilizando Next.js, React e TailwindCSS. O usuário conseguirá arrastar e soltar imagens diretamente na interface para upload, além de visualizar as imagens já armazenadas no S3. O design final do projeto já está definido e você poderá utilizá-lo como base para sua implementação.
 
+## 🤓 Antes de começar
+
+Este Mini Projeto não possui setup inicial. Você deverá começar o projeto do zero. 
+
 ## 🔨 Requisitos
 
 ### Configuração da AWS
@@ -10,8 +14,9 @@ Crie uma galeria de fotos simples com upload de imagens diretamente para o Amazo
 - Crie um bucket no S3 para armazenar as imagens.
 - Obtenha as credenciais de acesso (Access Key ID e Secret Access Key) para sua conta AWS
 
-> [!CAUTION]
-> - Cuidado com o vazamento de credenciais! Use as melhores práticas de segurança e **nunca** coloque uma chave API diretamente no seu repositório git.
+> [!CAUTION]  
+> Cuidado com o vazamento de credenciais! Use as melhores práticas de segurança e **nunca** coloque uma chave API diretamente no seu repositório git.
+
 
 ### Componente de Upload de Imagens
 
@@ -21,9 +26,10 @@ Crie uma galeria de fotos simples com upload de imagens diretamente para o Amazo
 - **Armazenamento no S3:** Enviar as imagens para o bucket S3, exibindo uma mensagem de sucesso após o upload.
 - **Server Actions:** Implemente o envio de dados utilizando Server Actions
 
-> [!TIP]
-> - Utilize a biblioteca `uppy` para implementar a funcionalidade de drag and drop.
-> - Utilize a biblioteca `@aws-sdk/client-s3` para interagir com o S3.
+> [!TIP]  
+> Utilize a biblioteca `uppy` para implementar a funcionalidade de drag and drop.
+> Utilize a biblioteca `@aws-sdk/client-s3` para interagir com o S3.
+
 
 ### Galeria de Imagens:
 
@@ -33,8 +39,9 @@ Crie uma galeria de fotos simples com upload de imagens diretamente para o Amazo
 - **Exclusão de Imagens:** Implementar um botão de exclusão para cada imagem, que deve ser exibido ao passar o mouse sobre a imagem.
 - **Server Actions:** Implemente a exclusão de imagens utilizando Server Actions
 
-> [!TIP]
-> - Utilize o componente `Image` do Next.js.
+> [!TIP]  
+> Utilize o componente `Image` do Next.js.
+
 
 ## 🔨 Desafio extra para quem quer ir além
 
