@@ -10,9 +10,8 @@ Crie uma galeria de fotos simples com upload de imagens diretamente para o Amazo
 - Crie um bucket no S3 para armazenar as imagens.
 - Obtenha as credenciais de acesso (Access Key ID e Secret Access Key) para sua conta AWS
 
-  > 👀 **Dicas:**
-  >
-  > - Cuidado com o vazamento de credenciais! Use as melhores práticas de segurança e **nunca** coloque uma chave API diretamente no seu repositório git.
+> [!CAUTION]
+> - Cuidado com o vazamento de credenciais! Use as melhores práticas de segurança e **nunca** coloque uma chave API diretamente no seu repositório git.
 
 ### Componente de Upload de Imagens
 
@@ -22,8 +21,7 @@ Crie uma galeria de fotos simples com upload de imagens diretamente para o Amazo
 - **Armazenamento no S3:** Enviar as imagens para o bucket S3, exibindo uma mensagem de sucesso após o upload.
 - **Server Actions:** Implemente o envio de dados utilizando Server Actions
 
-> 👀 **Dicas:**
->
+> [!TIP]
 > - Utilize a biblioteca `uppy` para implementar a funcionalidade de drag and drop.
 > - Utilize a biblioteca `@aws-sdk/client-s3` para interagir com o S3.
 
@@ -35,8 +33,7 @@ Crie uma galeria de fotos simples com upload de imagens diretamente para o Amazo
 - **Exclusão de Imagens:** Implementar um botão de exclusão para cada imagem, que deve ser exibido ao passar o mouse sobre a imagem.
 - **Server Actions:** Implemente a exclusão de imagens utilizando Server Actions
 
-> 👀 **Dicas:**
->
+> [!TIP]
 > - Utilize o componente `Image` do Next.js.
 
 ## 🔨 Desafio extra para quem quer ir além
