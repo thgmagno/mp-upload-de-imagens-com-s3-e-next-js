@@ -1,4 +1,6 @@
 import { Galery } from '@/components/Galery'
+import { UploadImageForm } from '@/components/UploadImageForm'
+import { UppyUpload } from '@/components/UppyUpload'
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
         </header>
 
         {/* Dropdown de arquivos */}
+        <UppyUpload />
+        <UploadImageForm />
 
         {/* Galeria de fotos */}
         <hr />

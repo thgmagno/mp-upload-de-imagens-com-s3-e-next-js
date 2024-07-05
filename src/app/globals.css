@@ -7,3 +7,17 @@
     @apply bg-blue-50
   }
 }
+
+@layer components {
+  .card-image {
+    @apply relative overflow-hidden rounded-md bg-white shadow-md
+  }
+
+  .card-image:hover .delete-image-button {
+    @apply inline-block
+  }
+
+  .delete-image-button {
+    @apply hidden absolute top-3 right-3 p-1 bg-white/90 rounded-md
+  }
+}
