@@ -23,7 +23,7 @@ export async function Galery() {
       <h2 className="my-4 text-2xl font-bold text-slate-600">
         Galeria de fotos
       </h2>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
         {imageList?.map((image) => (
           <div key={image.id} className="card-image">
             <div className="relative mx-auto flex h-40 max-h-[90%] w-full max-w-[90%] translate-y-[5%] overflow-hidden">
